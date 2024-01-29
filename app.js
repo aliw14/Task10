@@ -1,5 +1,4 @@
-function calculateSum() {
-  const array = [10, 20, 30, 40];
+function calculateSum(array) {
   let sum = 0;
   for (let i = 0; i < array.length; i++) {
     sum += array[i];
@@ -8,7 +7,7 @@ function calculateSum() {
   return sum;
 }
 
-calculateSum();
+calculateSum([10, 20, 30, 40]);
 console.log("-----------------");
 
 let counter = 0;
